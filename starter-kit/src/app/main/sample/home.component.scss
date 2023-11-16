@@ -1,0 +1,236 @@
+h4.font-weight-normal {
+    color: #148AE5;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+.shadow-card {
+    position: relative;
+    /* display: flex; */
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    border: 1px solid rgba(34, 41, 47, 0.125);
+    border-radius: 0.428rem;
+}
+
+.card-statistics .statistics-body {
+    padding: 0;
+}
+
+.shadow-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f8f8f8;
+    background-clip: border-box;
+    border: 1px solid rgba(34, 41, 47, 0.125);
+    border-radius: 13px 13px 0px 0px;
+}
+
+.shadow-card {
+    border: none;
+    margin-bottom: 2rem;
+    background-color: #F8F9FD;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out, background 0s, color 0s, border-color 0s;
+    border: 1px solid #E5E6EA;
+}
+
+p.card-text {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+.content-body {
+    padding-top: 34px;
+}
+
+.shadow-card-body.statistics-body1 {
+    background-color: white;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    border: none;
+}
+
+.btn-parent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn1 {
+    /* border-color: #7367f0 !important; */
+    background-color: #148AE5;
+    color: #fff !important;
+}
+
+.btn2 {
+    /* border-color: #7367f0 !important; */
+    background-color: #0FAB64;
+    color: #fff !important;
+}
+
+.shadow-card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem;
+}
+
+.card-body1 {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem;
+}
+
+// 
+.shadow-card.card-outlet-details {
+    padding: 20px;
+}
+
+.detail-card {
+    position: absolute;
+    top: 16px;
+    right: 35px;
+}
+
+
+
+
+// // SMAALL CARD
+// .btn-primary {
+//     /* border-color: #7367f0 !important; */
+//     background-color: #148AE5;
+//     color: #fff !important;
+//     border: none;
+// }
+// .btn-primary:hover {
+//     color: #fff;
+//     background-color: #148AE5;
+//     border-color: none;
+// }
+
+// // butoton
+// a.btn1 {
+//     border-radius: 5px;
+//     background-color: #148AE5;
+//     color: white;
+//     font-size: 16px;
+//     padding: 6px 11px;
+// }
+// a.btn2 {
+//     border-radius: 5px;
+//     background-color: #0FAB64;
+//     color: white;
+//     font-size: 16px;
+//     padding: 6px 11px;
+//     margin-left: 209px;
+// }
+// p.detail-card-text1 {
+//     margin-left: 51px;
+// }
+// .details-btn {
+//     padding-top: 30px;
+// }
+
+
+
+
+// meri
+.order-card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    border-radius: 13px;
+    /* height: 168px; */
+    /* width: 398px; */
+    background-color: #91939b;
+    display: grid;
+    padding: 1.5rem;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    align-items: center;
+}
+.order-card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    border-radius: 13px;
+    background-color: #F8F9FD;
+    display: grid;
+    padding: 1.5rem;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    align-items: center;
+}
+.card-congratulations {
+    background: white;
+    color: #000000;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+}
+
+p.detail-card-text1 {
+    display: flex;
+    justify-content: end;
+}
+.btn1 {
+    background-color: #148AE5;
+    color: #fff !important;
+    padding: 5px 29px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 {
+    background-color: #0FAB64;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    padding: 0 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-btn {
+    // padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-card-body h5 {
+    font-size: 20px;
+}
+.detail-card {
+    position: absolute;
+    top: 20px;
+}
+.outlet-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-top: 20px;
+}
+.card-body h1 {
+    font-size: 24px;
+}
+.card-body h1{
+    font-size: 24px;
+    color: black;
+}
+.details-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.order-card-body h5 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: black;
+}
